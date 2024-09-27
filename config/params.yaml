@@ -2,7 +2,7 @@
   ros__parameters:
 
     # Topics
-    pointCloudTopic: "/velodyne/obstacles"       # Point cloud data
+    pointCloudTopic: "/velodyne/velodyne_points"       # Point cloud data
     imuTopic: "/imu/data"                        # IMU data
     odomTopic: "odometry/imu"                   # IMU pre-preintegration odometry, same frequency as IMU
     gpsTopic: "odometry/gps"                    # GPS odometry topic from navsat, see module_navsat.launch file
